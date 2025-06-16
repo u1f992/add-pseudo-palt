@@ -1,0 +1,7 @@
+{
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true
+  },
+  "mypy-type-checker.args": ["--config=${workspaceFolder}/pyproject.toml"]
+}

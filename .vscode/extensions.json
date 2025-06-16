@@ -1,0 +1,4 @@
+{
+  "recommendations": ["charliermarsh.ruff", "ms-python.mypy-type-checker"],
+  "unwantedRecommendations": ["ms-python.vscode-pylance"]
+}
