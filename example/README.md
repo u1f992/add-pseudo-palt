@@ -35,5 +35,3 @@ vert    Vertical Writing
 vkna    Vertical Kana Alternates
 vrt2    Vertical Alternates and Rotation
 ```
-
-![](image.png)

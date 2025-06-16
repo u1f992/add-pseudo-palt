@@ -2,6 +2,8 @@
 
 A script to add pseudo-proportional width adjustment (palt) feature to font files.
 
+![](image.png)
+
 ## Features
 
 - Applies proportional width adjustment only to specified codepoints
