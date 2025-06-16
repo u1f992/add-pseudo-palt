@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>example</title>
+    <style>
+      @font-face {
+        font-family: "Zen Kaku Gothic Antique";
+        src: url("./ZenKakuGothicAntique-Regular.ttf");
+      }
+      .zen-kaku-gothic-antique-regular {
+        font-family: "Zen Kaku Gothic Antique";
+        font-weight: 400;
+        font-style: normal;
+        font-feature-settings: "palt";
+      }
+      @font-face {
+        font-family: "Zen Kaku Gothic Antique-palt-0.5";
+        src: url("./palt-0_5.ttf");
+      }
+      .test {
+        font-family: "Zen Kaku Gothic Antique-palt-0.5";
+        font-weight: 400;
+        font-style: normal;
+        font-feature-settings: "palt";
+      }
+    </style>
+  </head>
+  <body>
+    <p class="zen-kaku-gothic-antique-regular">
+      paltのないフォントで疑似プロポーショナル組
+    </p>
+    <p class="test">paltのないフォントで疑似プロポーショナル組</p>
+  </body>
+</html>
