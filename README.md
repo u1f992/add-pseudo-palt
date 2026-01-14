@@ -13,7 +13,13 @@ A script to add pseudo-proportional width adjustment (palt) feature to font file
 ## Usage
 
 ```
-$ python add-pseudo-palt.py <input_font> <output_font> <factor> <codepoints_file>
+$ uv run --with git+https://github.com/u1f992/add-pseudo-palt@v0.1.0 add-pseudo-palt <input_font> <output_font> <factor> <codepoints_file>
+```
+
+Also works with direct Python execution:
+
+```
+$ python add_pseudo_palt.py <input_font> <output_font> <factor> <codepoints_file>
 ```
 
 ### Arguments
